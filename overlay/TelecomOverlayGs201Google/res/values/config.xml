@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Package of the call diagnostic service -->
+    <string name="call_diagnostic_service_package_name" translatable="false">com.google.android.apps.scone</string>
+</resources>
