@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Introduction detail message shown in face education [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_enroll_education_message">በሚቀጥለው ማያ ገጽ ላይ ስልክዎን በዓይንዎ ልክ ይያዙት</string>
+
+    <!-- Message on the face enrollment introduction page that provides information about glasses. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_enroll_introduction_info_glasses">በመደበኛነት የዓይን መነጽር የሚያደርጉ ከሆነ በውቅረት ጊዜ ሊያደርጓቸው ይችላሉ</string>
+
+    <!-- Introduction detail message shown in face enrollment dialog [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_enroll_introduction_message">ስልክዎን ለመክፈት መልክዎን ይጠቀሙ</string>
+
+    <!-- Settings suggestion alert body text for re-enrolling a face. [CHAR LIMIT=300] -->
+    <string name="security_settings_face_enroll_improve_face_alert_body">በመልክ መክፈትን እንደገና ለማዋቀር የአሁኑን የእርስዎን የመልክ ሞዴል ይሰርዙ።\n\nየእርስዎ የመልክ ሞዴል በቋሚነት እና ደህንነቱ በተጠበቀ መንገድ ይሰረዛል።\n\nከስረዛ በኋላ ስልክዎን ለመክፈት የእርስዎ ፒን፣ ስርዓተ-ጥለት ወይም የይለፍ ቃል ያስፈልገዎታል።</string>
+
+    <!-- Settings suggestion alert body text for re-enrolling a face. [CHAR LIMIT=300] -->
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">በመልክ መክፈትን እንደገና ለማዋቀር የአሁኑን የእርስዎን የመልክ ሞዴል ይሰርዙ።\n\nየእርስዎ የመልክ ሞዴል በቋሚነት እና ደህንነቱ በተጠበቀ መንገድ ይሰረዛል።\n\nከስረዛ በኋላ ስልክዎን ለመክፈት የእርስዎ የጣት አሻራ፣ ፒን፣ ስርዓተ-ጥለት ወይም የይለፍ ቃል ያስፈልገዎታል።</string>
+
+    <!-- Text shown on the details of a toggle which disables/enables face unlock, depending if the user's eyes are open. [CHAR LIMIT=70] -->
+    <string name="security_settings_face_settings_require_attention_details">ስልኩን ለመክፈት አይኖችዎ ክፍት መሆን አለባቸው። ለተሻለ ውጤት ስልኩን ሲከፍቱ የፀሐይ መነጽሮችን ያውልቁ።</string>
+
+    <!-- Text shown in face settings explaining what your face can be used for. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_settings_footer">ስልክዎን ለመክፈት መልክዎን ይጠቀሙ።\n\nእነዚህን ከግምት ውስጥ ያስገቡ፦\nበአንድ ጊዜ አንድ መልክ ብቻ ማዋቀር ነው የሚችሉት። ሌላ መልክ ለማከል የአሁኑን ይሰርዙ።\n\nስልኩን መመልከት ሳያስቡት ሊከፍተው ይችላል።\n\nየሆነ ሰው ስልክዎ ፊትዎ ላይ ቢይዘው ሊከፈት ይችላል።\n\nስልክዎ እንደ መንታ ወንድም/እህት ያለ እርስዎን በጣም በሚመስል ሰው ሊከፈት ይችላል።</string>
+
+    <!-- Text shown in face settings explaining what your face can be used for. Used when attention checking is not supported. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_settings_footer_attention_not_supported">ስልክዎን ለመክፈት መልክዎን ይጠቀሙ።\n\nእነዚህን ከግምት ውስጥ ያስገቡ፦\nበአንድ ጊዜ አንድ መልክ ብቻ ማዋቀር ነው የሚችሉት። ሌላ መልክ ለማከል አሁን ያለውን ይሰርዙ።\n\nስልኩን መመልከት ሳያስቡት ሊከፍተው ይችላል።\n\nአይኖችዎ ቢዘጉ እንኳ የሆነ ሰው ስልክዎ ፊትዎ ላይ ቢይዘው ሊከፈት ይችላል።\n\nስልክዎ እንደ መንታ ወንድም/እህት ያለ እርስዎን በጣም በሚመስል ሰው ሊከፈት ይችላል።</string>
+
+    <!-- Introduction title shown in face enrollment education screen for accessibility [CHAR LIMIT=50] -->
+    <string name="security_settings_face_enroll_education_title_accessibility">በመልክ መክፈትን እንዴት ማዋቀር እንደሚቻል</string>
+</resources>

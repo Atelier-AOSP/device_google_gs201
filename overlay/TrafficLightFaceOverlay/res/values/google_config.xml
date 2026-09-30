@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <bool name="config_face_enroll_use_traffic_light">true</bool>
+    <string name="config_face_enroll_traffic_light_package" translatable="false">com.google.android.settings.future.biometrics.faceenroll</string>
+</resources>

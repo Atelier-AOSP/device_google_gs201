@@ -363,16 +363,25 @@ PRODUCT_PACKAGES += \
     GlanceableHubSettingsConfigOverlay2022 \
     GlanceableHubSysuiConfigOverlay \
     GooglePermissionControllerSafetyCenterOverlay \
+    PixelBatteryHealthOverlay \
     PixelConnectivityOverlay2023_midyear \
     PixelNfcOverlayCommon \
     PixelTetheringOverlay2021 \
     SettingsGoogleOverlayProductGs201 \
+    SettingsGoogleOverlayVendorGs201 \
     SettingsProviderOverlayProductGs201 \
     SystemUIGoogleOverlayProductGs201 \
     SystemUIGoogleOverlayVendorGs201 \
+    TelecomOverlayGs201Google \
     TeleServiceOverlayProductGs201 \
     TeleServiceOverlayVendorGs201 \
     TelephonyProviderOverlayProductGs201
+
+ifneq ($(TARGET_IS_TABLET),true)
+PRODUCT_PACKAGES += \
+    ClearCallingSettingsOverlay2022 \
+    TrafficLightFaceOverlay
+endif
 
 # Properties
 TARGET_PRODUCT_PROP += device/google/gs201/product.prop

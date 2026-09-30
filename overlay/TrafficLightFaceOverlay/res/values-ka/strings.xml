@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Introduction detail message shown in face education [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_enroll_education_message">მომდევნო ეკრანზე ტელეფონი სახესთან, თვალების დონეზე მიიტანეთ</string>
+
+    <!-- Message on the face enrollment introduction page that provides information about glasses. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_enroll_introduction_info_glasses">თუ, ჩვეულებრივ, სათვალეს ატარებთ, სახით ამოცნობის დაყენებისას შეგიძლიათ მისი გამოყენება</string>
+
+    <!-- Introduction detail message shown in face enrollment dialog [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_enroll_introduction_message">გამოიყენეთ თქვენი სახე ტელეფონის განსაბლოკად</string>
+
+    <!-- Settings suggestion alert body text for re-enrolling a face. [CHAR LIMIT=300] -->
+    <string name="security_settings_face_enroll_improve_face_alert_body">წაშალეთ სახის ამჟამინდელი მოდელი სახით განბლოკვის ხელახლა დასაყენებლად.\n\nთქვენი სახის მოდელი სამუდამოდ და უსაფრთხოდ წაიშლება.\n\nწაშლის შემდეგ, ტელეფონის განსაბლოკად ანაბეჭდი, PIN-კოდი, ნიმუში ან პაროლი დაგჭირდებათ.</string>
+
+    <!-- Settings suggestion alert body text for re-enrolling a face. [CHAR LIMIT=300] -->
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">წაშალეთ სახის ამჟამინდელი მოდელი სახით განბლოკვის ხელახლა დასაყენებლად.\n\nთქვენი სახის მოდელი სამუდამოდ და უსაფრთხოდ წაიშლება.\n\nწაშლის შემდეგ, ტელეფონის განსაბლოკად ანაბეჭდი, PIN-კოდი, ნიმუში ან პაროლი დაგჭირდებათ.</string>
+
+    <!-- Text shown on the details of a toggle which disables/enables face unlock, depending if the user's eyes are open. [CHAR LIMIT=70] -->
+    <string name="security_settings_face_settings_require_attention_details">ტელეფონის განსაბლოკად თვალები გახელილი უნდა გქონდეთ. საუკეთესო შედეგის მისაღებად, ტელეფონის განბლოკვისას მოიხსენით მზის სათვალე.</string>
+
+    <!-- Text shown in face settings explaining what your face can be used for. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_settings_footer">ახლა უკვე შეგიძლიათ სახით ტელეფონის განბლოკვა.\n\nგაითვალისწინეთ:\nერთდროულად მხოლოდ ერთი სახის დაყენება შეიძლება. სხვა სახის დასაყენებლად, წაშალეთ ამჟამინდელი.\n\nტელეფონი შეიძლება მასზე დახედვით უნებლიეთ განიბლოკოს, თუნდაც ამის განზრახვა არ გქონდეთ.\n\nთქვენი ტელეფონი შეიძლება განბლოკოს სხვა პირმა, თუ ტელეფონს თქვენს სახესთან მიიტანს.\n\nთქვენი ტელეფონი შეიძლება განბლოკოს სხვა პირმა, რომელიც ძალიან გგავთ, მაგალითად, თქვენმა იდენტურმა ტყუპისცალმა.</string>
+
+    <!-- Text shown in face settings explaining what your face can be used for. Used when attention checking is not supported. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_settings_footer_attention_not_supported">ახლა უკვე შეგიძლიათ სახით ტელეფონის განბლოკვა.\n\nდაიმახსოვრეთ:\nერთდროულად მხოლოდ ერთი სახის დაყენება შეიძლება. სხვა სახის დასაყენებლად, წაშალეთ ამჟამინდელი.\n\nტელეფონზე დახედვამ შეიძლება უნებლიეთ განბლოკოს ის, თქვენი სურვილის საწინააღმდეგოდ.\n\nთქვენი ტელეფონი შეიძლება განბლოკოს უცხო პირმა, თუ მას სახესთან მოგიტანთ, მაშინაც კი, თუ თვალები დახუჭული გაქვთ.\n\nთქვენი ტელეფონი შეიძლება განბლოკოს უცხო პირმა, რომელიც ტყუპისცალივით გგავთ.</string>
+
+    <!-- Introduction title shown in face enrollment education screen for accessibility [CHAR LIMIT=50] -->
+    <string name="security_settings_face_enroll_education_title_accessibility">როგორ უნდა დააყენოთ სახით განბლოკვა</string>
+</resources>
