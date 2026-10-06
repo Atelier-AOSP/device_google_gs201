@@ -1,0 +1,5 @@
+binder_call(pixelsupport_app, edgetpu_tachyon_server)
+
+set_prop(pixelsupport_app, touch_property_type)
+
+allow pixelsupport_app edgetpu_device:chr_file { getattr ioctl map read write };
