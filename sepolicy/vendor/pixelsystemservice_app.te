@@ -1,0 +1,23 @@
+hal_client_domain(pixelsystemservice_app, hal_fingerprint)
+hal_client_domain(pixelsystemservice_app, hal_power_stats)
+
+binder_call(pixelsystemservice_app, hal_bluetooth_btlinux)
+binder_call(pixelsystemservice_app, hal_bluetooth_default)
+binder_call(pixelsystemservice_app, hal_graphics_composer_default)
+binder_call(pixelsystemservice_app, statsd)
+
+get_prop(pixelsystemservice_app, vendor_audio_prop_restricted)
+get_prop(pixelsystemservice_app, vendor_fingerprint_prop)
+
+set_prop(pixelsystemservice_app, touch_property_type)
+set_prop(pixelsystemservice_app, vendor_intelligence_prop)
+set_prop(pixelsystemservice_app, vendor_pss_systemphenotype_prop)
+
+allow pixelsystemservice_app cameraserver_service:service_manager find;
+allow pixelsystemservice_app fwk_vibrator_control_service:service_manager find;
+allow pixelsystemservice_app pixel_bluetooth_hwservice_type:hwservice_manager find;
+allow pixelsystemservice_app pixel_bluetooth_service_type:service_manager find;
+allow pixelsystemservice_app pixel_display_hal_service_type:service_manager find;
+allow pixelsystemservice_app proc_gs_perf_mon:dir r_dir_perms;
+allow pixelsystemservice_app proc_gs_perf_mon:file r_file_perms;
+allow pixelsystemservice_app touch_context_service:service_manager find;
