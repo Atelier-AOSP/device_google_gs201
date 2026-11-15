@@ -378,6 +378,10 @@
         <item>/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk</item>
     </string-array>
 
+    <!-- Note: This config is deprecated, use config_pinnerCameraPinBytes instead.
+         True if camera app should be pinned via Pinner Service -->
+    <bool name="config_pinnerCameraApp">true</bool>
+
     <!-- Pre-scale volume at volume step 1 for Absolute Volume -->
     <fraction name="config_prescaleAbsoluteVolume_index1">100.0%</fraction>
 
