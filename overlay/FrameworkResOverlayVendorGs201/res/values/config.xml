@@ -72,6 +72,9 @@
     <!-- Is the device capable of hot swapping an UICC Card -->
     <bool name="config_hotswapCapable">true</bool>
 
+    <!-- The shortlink to display when the user is locked out on the lockscreen. -->
+    <string name="config_lockscreenLockoutShortlink" translatable="false">g.co/pixel/unlock</string>
+
     <!-- Minimum screen brightness setting allowed by power manager.
          -2 is invalid so setting will resort to int value specified above.
          Set this to 0.0 to allow screen to go to minimal brightness.
@@ -381,6 +384,12 @@
     <!-- Note: This config is deprecated, use config_pinnerCameraPinBytes instead.
          True if camera app should be pinned via Pinner Service -->
     <bool name="config_pinnerCameraApp">true</bool>
+
+    <!-- The component name for the default system wearable sensing service.
+        This service must be trusted, as it can be activated without explicit consent of the user.
+        See android.service.wearable.WearableSensingService.
+   -->
+    <string name="config_defaultWearableSensingService" translatable="false">com.google.android.glasses.core/com.google.android.projection.core.secure.TrustedAmbientSensingService</string>
 
     <!-- Pre-scale volume at volume step 1 for Absolute Volume -->
     <fraction name="config_prescaleAbsoluteVolume_index1">100.0%</fraction>
