@@ -32,6 +32,8 @@ BOARD_BOOTCONFIG += \
     androidboot.boot_devices=14700000.ufs
 
 BOARD_KERNEL_CMDLINE += \
+    workqueue.power_efficient=1 \
+    f2fs.num_compress_pages=128 \
     fips140.load_sequential=1 \
     exynos_drm.load_sequential=1 \
     dyndbg=\"func alloc_contig_dump_pages +p\" \
@@ -47,9 +49,10 @@ BOARD_KERNEL_CMDLINE += \
     cgroup.memory=nokmem \
     disable_dma32=on \
     rodata=on \
+    binder.impl=rust \
     at24.write_timeout=100 \
     log_buf_len=1024K \
-    android_arch_task_struct_size=512
+    android_arch_task_struct_size=784
 
 TARGET_NO_BOOTLOADER := true
 BOARD_PREBUILT_BOOTIMAGE := $(wildcard $(TARGET_KERNEL_DIR)/boot.img)
