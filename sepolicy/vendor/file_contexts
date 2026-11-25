@@ -71,6 +71,9 @@
 /dev/acd-com.google.usf.sc u:object_r:aoc_device:s0
 /dev/acd-com.google.usf.sc.non_wake_up u:object_r:aoc_device:s0
 /dev/acd-debug u:object_r:aoc_device:s0
+/dev/acd-gnss_passthrough_ctl u:object_r:aoc_device:s0
+/dev/acd-gnss_passthrough_data_rx u:object_r:aoc_device:s0
+/dev/acd-gnss_passthrough_data_tx u:object_r:aoc_device:s0
 /dev/acd-hotword_notification u:object_r:aoc_device:s0
 /dev/acd-hotword_pcm u:object_r:aoc_device:s0
 /dev/acd-logging u:object_r:aoc_device:s0
@@ -251,6 +254,7 @@
 /vendor/bin/dump/dump_gps u:object_r:dump_gps_exec:s0
 /vendor/bin/dump/dump_gsc\.sh u:object_r:dump_gsc_exec:s0
 /vendor/bin/dump/dump_gxp u:object_r:dump_gxp_exec:s0
+/vendor/bin/dump/dump_iris u:object_r:dump_iris_exec:s0
 /vendor/bin/dump/dump_memory u:object_r:dump_memory_exec:s0
 /vendor/bin/dump/dump_modem u:object_r:dump_modem_exec:s0
 /vendor/bin/dump/dump_modemlog u:object_r:dump_modemlog_exec:s0
@@ -305,6 +309,8 @@
 /vendor/bin/hw/block_queue_depth u:object_r:block_queue_depth_exec:s0
 /vendor/bin/hw/citadel_updater u:object_r:citadel_updater:s0
 /vendor/bin/hw/citadeld u:object_r:citadeld_exec:s0
+/vendor/bin/hw/com\.google\.android\.widevine\.oemcrypto-service\.default u:object_r:hal_oemcrypto_widevine_exec:s0
+/vendor/bin/hw/com\.google\.android\.widevine\.oemcrypto-service\.default-lazy u:object_r:hal_oemcrypto_widevine_exec:s0
 /vendor/bin/hw/com\.google\.edgetpu.dba-service u:object_r:edgetpu_dba_server_exec:s0
 /vendor/bin/hw/com\.google\.edgetpu.tachyon-service u:object_r:edgetpu_tachyon_server_exec:s0
 /vendor/bin/hw/disable_contaminant_detection\.sh u:object_r:disable-contaminant-detection-sh_exec:s0

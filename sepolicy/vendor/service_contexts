@@ -1,3 +1,4 @@
+android.hardware.drm.IDecryptFactory/default u:object_r:hal_drm_service:s0
 android.hardware.drm.IDrmFactory/widevine u:object_r:hal_drm_service:s0
 android.hardware.neuralnetworks.IDevice/google-edgetpu u:object_r:edgetpu_nnapi_service:s0
 android.hardware.security.keymint.IKeyMintDevice/strongbox u:object_r:hal_keymint_service:s0
@@ -6,6 +7,9 @@ android.hardware.security.sharedsecret.ISharedSecret/strongbox u:object_r:hal_sh
 aocx.IAocx/default u:object_r:aocx:s0
 com.google.android.imageprocessing.hal.IImageProcessingHal/default u:object_r:vendor_image_processing_hal_service:s0
 com.google.android.lyric.intelligentcamerahal.IIntelligentCameraHal/default u:object_r:vendor_intelligent_camera_hal_service:s0
+com.google.android.vibrator.IPixelAudioHapticController/default u:object_r:hal_vibrator_service:s0
+com.google.android.widevine.oemcrypto.IOemCrypto/default u:object_r:hal_drm_service:s0
+com.google.android.widevine.oemcrypto.IOpkSerializer/default u:object_r:hal_drm_service:s0
 com.google.edgetpu.IEdgeTpuVendorService/default u:object_r:edgetpu_vendor_service:s0
 com.google.edgetpu.dba.IDevice/default u:object_r:edgetpu_dba_service:s0
 com.google.edgetpu.tachyon.IComputeService/default u:object_r:edgetpu_tachyon_service:s0

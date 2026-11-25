@@ -3,7 +3,6 @@ type lwis_device, dev_type;
 type vendor_camera_data_file, data_file_type, file_type;
 type vendor_camera_interference_avoidance_service, hal_service_type, protected_service, service_manager_type;
 type vendor_image_processing_hal_service, hal_service_type, protected_service, service_manager_type;
-type vendor_intelligent_camera_hal_service, hal_service_type, protected_service, service_manager_type;
 
 hal_client_domain(hal_camera_default, hal_graphics_allocator)
 hal_client_domain(hal_camera_default, hal_graphics_composer)
@@ -14,6 +13,7 @@ add_service(hal_camera_default, vendor_camera_interference_avoidance_service)
 add_service(hal_camera_default, vendor_image_processing_hal_service)
 add_service(hal_camera_default, vendor_intelligent_camera_hal_service)
 
+binder_call(hal_camera_default, dcservice_app)
 binder_call(hal_camera_default, edgetpu_app_server)
 binder_call(hal_camera_default, edgetpu_tachyon_server)
 binder_call(hal_camera_default, edgetpu_vendor_server)
@@ -42,6 +42,7 @@ allow hal_camera_default aoc_device:chr_file rw_file_perms;
 allow hal_camera_default apex_info_file:file r_file_perms;
 allow hal_camera_default camera_binder_service:service_manager find;
 allow hal_camera_default camera_lyricconfigprovider_service:service_manager find;
+allow hal_camera_default cgroup_v2:file r_file_perms;
 allow hal_camera_default dmabuf_system_heap_device:chr_file r_file_perms;
 allow hal_camera_default eco_service:service_manager find;
 allow hal_camera_default edgetpu_app_service:service_manager find;

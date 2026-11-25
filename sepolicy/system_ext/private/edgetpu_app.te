@@ -14,6 +14,7 @@ perfetto_producer(edgetpu_app_server)
 
 allow edgetpu_app_server fwk_stats_service:service_manager find;
 allow edgetpu_app_server package_native_service:service_manager find;
+allow edgetpu_app_server pcc_data_file:file { map read };
 allow edgetpu_app_server privapp_data_file:file { map read };
 allow edgetpu_app_server self:capability ipc_lock;
 allow edgetpu_app_server shell_data_file:file { map read };

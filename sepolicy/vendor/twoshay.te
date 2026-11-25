@@ -15,6 +15,8 @@ binder_use(twoshay)
 
 init_daemon_domain(twoshay)
 
+set_prop(twoshay, vendor_twoshay_prop)
+
 allow twoshay dumpstate:fd use;
 allow twoshay dumpstate:fifo_file write;
 allow twoshay fwk_stats_service:service_manager find;

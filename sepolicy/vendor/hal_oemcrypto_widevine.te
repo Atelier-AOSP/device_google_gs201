@@ -1,0 +1,14 @@
+type hal_oemcrypto_widevine, domain;
+type hal_oemcrypto_widevine_exec, exec_type, file_type, vendor_file_type;
+type hal_oemcrypto_widevine_tmpfs, file_type;
+
+hal_server_domain(hal_oemcrypto_widevine, hal_drm)
+
+binder_call(hal_drm_server, hal_oemcrypto_widevine)
+
+init_daemon_domain(hal_oemcrypto_widevine)
+
+tmpfs_domain(hal_oemcrypto_widevine)
+
+allow hal_drm_server hal_oemcrypto_widevine_tmpfs:file { map read write };
+allow hal_oemcrypto_widevine dmabuf_system_heap_device:chr_file r_file_perms;

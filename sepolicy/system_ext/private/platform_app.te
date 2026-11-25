@@ -1,1 +1,3 @@
 hal_client_domain(platform_app, hal_fingerprint)
+
+allow platform_app clock_manager_service:service_manager find;

@@ -11,3 +11,4 @@ type touchflow_logger_service, hal_service_type, service_manager_type;
 type twoshay_file_dump_service, hal_service_type, service_manager_type;
 type twoshay_notification_service, hal_service_type, service_manager_type;
 type vendor_displaycolor_service, vndservice_manager_type;
+type vendor_intelligent_camera_hal_service, hal_service_type, protected_service, service_manager_type;
