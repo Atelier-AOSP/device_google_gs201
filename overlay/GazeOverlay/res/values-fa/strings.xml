@@ -5,7 +5,7 @@
 -->
 <resources>
     <!-- Text shown on a toggle which disables/enables face unlock, depending if the gaze supported. [CHAR LIMIT=30] -->
-    <string name="security_settings_face_settings_gaze">به صفحه توجه کنید</string>
+    <string name="security_settings_face_settings_gaze">نیازمند نگاه مستقیم به صفحه‌نمایش</string>
 
     <!-- Text shown on the details of a toggle which disables/enables face unlock, depending if the gaze supported. [CHAR LIMIT=70] -->
     <string name="security_settings_face_settings_gaze_details">برای باز کردن قفل، باید به تلفن نگاه کنید. برای بهترین نتیجه، عینک آفتابی را بردارید.</string>

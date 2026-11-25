@@ -7,6 +7,12 @@
     <!-- Title shown for work menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
     <string name="security_settings_work_fingerprint_preference_title">用于工作资料的指纹解锁</string>
 
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">指纹解锁功能会为您创建专属指纹模型，以便验证身份。在设置过程中，系统需采集指纹不同部位的图像，才能创建指纹模型。</string>
+
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard when asking for parental consent. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2">指纹解锁功能会为您的孩子创建专属指纹模型，以便验证身份。在设置过程中，孩子需要录入指纹不同部位的图像，才能创建指纹模型。</string>
+
     <!-- Introduction title shown in fingerprint enrollment dialog to locate the sensor [CHAR LIMIT=29] -->
     <string name="security_settings_fingerprint_enroll_find_sensor_title">轻触电源按钮</string>
 

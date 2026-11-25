@@ -11,7 +11,7 @@
     <string name="face_recalibrate_notification_title">Volte a inscrever o seu rosto</string>
 
     <!-- Notification content shown when the system requires the user to re-enroll their face. [CHAR LIMIT=NONE] -->
-    <string name="face_recalibrate_notification_content">O Desbloqueio facial pode não funcionar enquanto não voltar a inscrever o seu rosto</string>
+    <string name="face_recalibrate_notification_content">O Desbloqueio facial pode não funcionar enquanto não voltar a inscrever a sua cara</string>
 
     <!-- Array containing custom messages shown during face acquisition from vendor.  Vendor is expected to add and translate these strings -->
     <string-array name="face_acquired_vendor"/>

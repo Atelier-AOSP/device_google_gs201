@@ -8,7 +8,7 @@
     <string name="security_settings_work_fingerprint_preference_title">Mở khóa bằng vân tay cho công việc</string>
 
     <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE]-->
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Tính năng Mở khóa bằng vân tay sẽ tạo một mẫu vân tay duy nhất để xác minh danh tính của bạn. Để tạo mẫu vân tay này trong khi thiết lập, bạn sẽ chụp ảnh vân tay của mình ở nhiều vị trí.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Tính năng Mở khoá bằng vân tay sẽ tạo một mẫu vân tay duy nhất để xác minh danh tính của bạn. Để tạo mẫu vân tay này trong khi thiết lập, bạn cần chụp ảnh vân tay của mình ở nhiều vị trí.</string>
 
     <!-- Introduction title shown in fingerprint enrollment dialog to locate the sensor [CHAR LIMIT=29] -->
     <string name="security_settings_fingerprint_enroll_find_sensor_title">Chạm vào nút Nguồn</string>

@@ -8,7 +8,7 @@
     <string name="security_settings_work_fingerprint_preference_title">Pag-unlock Gamit ang Fingerprint para sa trabaho</string>
 
     <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE]-->
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Gumagawa ang Pag-unlock Gamit ang Fingerprint ng natatanging modelo ng iyong fingerprint para i-verify na ikaw ito. Para magawa ang modelo ng fingerprint na ito sa panahon ng pag-set up, kukuha ka ng mga larawan ng iyong fingerprint mula sa iba\'t ibang posisyon.</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Gumagawa ang Pag-unlock Gamit ang Fingerprint ng natatanging modelo ng iyong fingerprint para i-verify na ikaw ito. Para magawa ang modelo ng fingerprint na ito sa panahon ng pag-set up, kukuha ka ng mga larawan ng fingerprint mo mula sa iba\'t ibang posisyon.</string>
 
     <!-- Introduction title shown in fingerprint enrollment dialog to locate the sensor [CHAR LIMIT=29] -->
     <string name="security_settings_fingerprint_enroll_find_sensor_title">Idikit ang daliri sa Power button</string>

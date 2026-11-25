@@ -7,6 +7,9 @@
     <!-- Title shown for work menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
     <string name="security_settings_work_fingerprint_preference_title">Vingerafdrukslot vir werk</string>
 
+    <!-- Introduction description message shown in fingerprint enrollment introduction screen in setup wizard. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2">Vingerafdrukslot skep ’n unieke model van jou vingerafdruk om te verifieer dat dit jy is. Jy sal tydens die opstelling jou vingerafdruk uit verskillende posisies afneem om hierdie vingerafdrukmodel te skep.</string>
+
     <!-- Introduction title shown in fingerprint enrollment dialog to locate the sensor [CHAR LIMIT=29] -->
     <string name="security_settings_fingerprint_enroll_find_sensor_title">Raak aan die aan/af-skakelaar</string>
 

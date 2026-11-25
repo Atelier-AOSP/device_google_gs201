@@ -5,8 +5,8 @@
 -->
 <resources>
     <!-- Text shown on a toggle which disables/enables face unlock, depending if the gaze supported. [CHAR LIMIT=30] -->
-    <string name="security_settings_face_settings_gaze">Benodig aandag op skerm</string>
+    <string name="security_settings_face_settings_gaze">Benodig aandag aan skerm</string>
 
     <!-- Text shown on the details of a toggle which disables/enables face unlock, depending if the gaze supported. [CHAR LIMIT=70] -->
-    <string name="security_settings_face_settings_gaze_details">Jy moet vir jou foon kyk om te ontsluit. Haal jou sonbril af vir die beste resultate.</string>
+    <string name="security_settings_face_settings_gaze_details">Jy moet na jou foon kyk om dit te ontsluit. Haal jou sonbril af vir die beste resultate.</string>
 </resources>

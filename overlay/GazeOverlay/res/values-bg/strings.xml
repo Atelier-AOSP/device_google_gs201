@@ -8,5 +8,5 @@
     <string name="security_settings_face_settings_gaze">Изискване за поглед към екрана</string>
 
     <!-- Text shown on the details of a toggle which disables/enables face unlock, depending if the gaze supported. [CHAR LIMIT=70] -->
-    <string name="security_settings_face_settings_gaze_details">За да отключите, трябва да гледате към телефона си. За най-добри резултати свалете слънчевите си очила.</string>
+    <string name="security_settings_face_settings_gaze_details">За да откл. телефона си, трябва да гледате към него. Свалете слънчевите очила.</string>
 </resources>
